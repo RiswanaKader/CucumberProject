@@ -1,0 +1,119 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-06-01T14:20:12.945Z",
+        "line": 3,
+        "name": "Launch the browser",
+        "description": "",
+        "id": "limeroad;launch-the-browser",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6639064300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Enter the url",
+            "match": {
+              "location": "com.Limeroad.stepdefinition.Stepdefinition.enter_the_url()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-06-01T14:20:19.831Z",
+        "line": 6,
+        "name": "Search the product",
+        "description": "",
+        "id": "limeroad;search-the-product",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3231716100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click the men for shopping",
+            "match": {
+              "location": "com.Limeroad.stepdefinition.Stepdefinition.click_the_men_for_shopping()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3248656500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click the jeans in the men",
+            "match": {
+              "location": "com.Limeroad.stepdefinition.Stepdefinition.click_the_jeans_in_the_men()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3272138800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click the denim jeans",
+            "match": {
+              "location": "com.Limeroad.stepdefinition.Stepdefinition.click_the_denim_jeans()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3202747000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Select the navy blue jean in denim jeans",
+            "match": {
+              "location": "com.Limeroad.stepdefinition.Stepdefinition.select_the_navy_blue_jean_in_denim_jeans()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3359289100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Select size",
+            "match": {
+              "location": "com.Limeroad.stepdefinition.Stepdefinition.select_size()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3287789200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Add to cart",
+            "match": {
+              "location": "com.Limeroad.stepdefinition.Stepdefinition.add_to_cart()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "LimeRoad",
+    "description": "",
+    "id": "limeroad",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/com/Limeroad/Features/limeroad.feature",
+    "tags": []
+  }
+]
